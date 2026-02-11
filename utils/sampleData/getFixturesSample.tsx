@@ -6,12 +6,75 @@ export default function getFixturesSample(): AllFixtures[] {
             "name": "EPL",
             "fixtures":
                 [{
-                    "fixture":{"id":1035551,"referee":null,"timezone":"UTC","date":"2026-02-11T00:00:00+00:00","timestamp":1716130800,"periods":{"first":1659726000,"second":1659729600},"venue":{"id":555,"name":"Etihad Stadium","city":"Manchester"},"status":{"long":"Match Finished","short":"FT","elapsed":90}},
-                    "league":{"id":39,"name":"Premier League","country":"England","logo":"https:/media.api-sports.io/football/leagues/39.png","flag":"https:/media.api-sports.io/flags/gb.svg","season":2026,"round":"Regular Season - 38"},
-                    "teams":{"home":{"id":50,"name":"Manchester City","logo":"https:/media.api-sports.io/football/teams/50.png","winner":true},"away":{"id":48,"name":"West Ham","logo":"https://media.api-sports.io/football/teams/48.png","winner":false}},
-                    "goals":{"home":3,"away":2},
-                    "score":{"halftime":{"home":1,"away":2},"fulltime":{"home":3,"away":2},"extratime":{"home":null,"away":null},"penalty":{"home":null,"away":null}}
-                },
+fixture: {
+id: 1379220
+referee: "T. Harrington"
+timezone: "UTC"
+date: "2026-02-12T20:00:00+00:00"
+timestamp: 1770926400
+periods: {
+first: null
+second: null
+}
+venue: {
+id: 10503
+name: "Brentford Community Stadium"
+city: "London"
+}
+status: {
+long: "Not Started"
+short: "NS"
+elapsed: null
+extra: null
+}
+}
+league: {
+id: 39
+name: "Premier League"
+country: "England"
+logo: "https://media.api-sports.io/football/leagues/39.png"
+flag: "https://media.api-sports.io/flags/gb-eng.svg"
+season: 2025
+round: "Regular Season - 26"
+standings: true
+}
+teams: {
+home: {
+id: 55
+name: "Brentford"
+logo: "https://media.api-sports.io/football/teams/55.png"
+winner: null
+}
+away: {
+id: 42
+name: "Arsenal"
+logo: "https://media.api-sports.io/football/teams/42.png"
+winner: null
+}
+}
+goals: {
+home: null
+away: null
+}
+score: {
+halftime: {
+home: null
+away: null
+}
+fulltime: {
+home: null
+away: null
+}
+extratime: {
+home: null
+away: null
+}
+penalty: {
+home: null
+away: null
+}
+}
+},
                 {
                     "fixture":{"id":1035552,"referee":null,"timezone":"UTC","date":"2026-02-11T15:00:00+00:00","timestamp":1716130800,"periods":{"first":1659726000,"second":1659729600},"venue":{"id":555,"name":"Etihad Stadium","city":"Manchester"},"status":{"long":"Match Finished","short":"FT","elapsed":90}},
                     "league":{"id":39,"name":"Premier League","country":"England","logo":"https:/media.api-sports.io/football/leagues/39.png","flag":"https:/media.api-sports.io/flags/gb.svg","season":2026,"round":"Regular Season - 38"},
