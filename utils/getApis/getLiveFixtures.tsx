@@ -10,8 +10,8 @@ const getLiveFixturesApi = async (): Promise<Fixture[]> => {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": API_KEY,
-      "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
+      "x-apisports-key": API_KEY,
+      "x-apisports-host": "v3.football.api-sports.io",
     },
     next: {
       revalidate: 60 * 60 * 24, // validate data every 24 hours
