@@ -37,8 +37,8 @@ async function fetchFixturesByLeague(
   const options = {
     method: "GET",
     headers: {
-      "x-apisports-key": API_KEY,
-      "x-apisports-host": "v3.football.api-sports.io",
+      "x-rapidapi-key": API_KEY,
+      "x-rapidapi-host": "v3.football.api-sports.io",
     },
     next: {
       revalidate: 60 * 60 * 24, // validate data every 24 hours
