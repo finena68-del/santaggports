@@ -6,7 +6,7 @@ import { AllFixtures, Fixture } from "../type";
 const API_KEY = process.env.API_KEY as string;
 
 const getLiveFixturesApi = async (): Promise<Fixture[]> => {
-  const url = "https://api-football-v1.p.rapidapi.com/v3/fixtures?live=all";
+  const url = "https://v3.football.api-sports.io/v3/fixtures?live=all";
   const options = {
     method: "GET",
     headers: {
