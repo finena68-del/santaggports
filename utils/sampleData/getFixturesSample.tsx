@@ -6,7 +6,7 @@ export default function getFixturesSample(): AllFixtures[] {
             "name": "EPL",
             "fixtures":
                 [{
-                    "fixture":{"id":1035551,"referee":null,"timezone":"UTC","date":"2024-10-29T15:00:00+00:00","timestamp":1716130800,"periods":{"first":1659726000,"second":1659729600},"venue":{"id":555,"name":"Etihad Stadium","city":"Manchester"},"status":{"long":"Match Finished","short":"FT","elapsed":90}},
+                    "fixture":{"id":1035551,"referee":null,"timezone":"UTC","date":"2026-02-11T00:00:00+00:00","timestamp":1716130800,"periods":{"first":1659726000,"second":1659729600},"venue":{"id":555,"name":"Etihad Stadium","city":"Manchester"},"status":{"long":"Match Finished","short":"FT","elapsed":90}},
                     "league":{"id":39,"name":"Premier League","country":"England","logo":"https:/media.api-sports.io/football/leagues/39.png","flag":"https:/media.api-sports.io/flags/gb.svg","season":2023,"round":"Regular Season - 38"},
                     "teams":{"home":{"id":50,"name":"Manchester City","logo":"https:/media.api-sports.io/football/teams/50.png","winner":true},"away":{"id":48,"name":"West Ham","logo":"https://media-1.api-sports.io/football/teams/48.png","winner":false}},
                     "goals":{"home":3,"away":2},
