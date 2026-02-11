@@ -33,7 +33,7 @@ async function fetchFixturesByLeague(
   year: number,
   league: number
 ): Promise<Fixture[]> {
-  const url = `https://api-football-v1.p.rapidapi.com/v3/fixtures?league=${league}&season=${year}`;
+  const url = `https://v3.football.api-sports.io/v3/fixtures?league=${league}&season=${year}`;
   const options = {
     method: "GET",
     headers: {
